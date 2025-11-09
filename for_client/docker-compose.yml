@@ -7,7 +7,7 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - django_data:/projectsite
+      - django_data:/psusphere_data
     environment:
       - DEBUG=1
       - USE_SQLITE=true 
