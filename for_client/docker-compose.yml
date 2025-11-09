@@ -7,7 +7,7 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - django_data:/app
+      - django_data:/projectsite
     environment:
       - DEBUG=1
       - USE_SQLITE=true 
