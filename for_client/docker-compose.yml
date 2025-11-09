@@ -3,11 +3,11 @@ version: '3.8'
 services:
   web:
     image: 0xe14y3/psusphere:latest
-    command: sh -c "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+    command: sh -c "python projectsite/manage.py migrate && python projectsite/manage.py runserver 0.0.0.0:8000"
     ports:
       - "8000:8000"
     volumes:
-      - django_data:/psusphere_data
+      - django_data:/psusphere
     environment:
       - DEBUG=1
       - USE_SQLITE=true 

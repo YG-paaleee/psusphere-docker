@@ -8,7 +8,7 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - .:/psusphere_data
+      - .:/psusphere
     environment:
       - DEBUG=1
       - USE_SQLITE=true
