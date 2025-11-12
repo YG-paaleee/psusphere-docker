@@ -14,7 +14,7 @@ To run PSUSphere using Docker:
 
 ```bash
 # 1. Clone this repository
-git clone https://github.com/<yourusername>/psusphere-docker.git
+git clone https://github.com/YG-paaleee/psusphere-docker.git
 cd psusphere-docker/for_client
 
 # 2. Start the container
@@ -31,6 +31,8 @@ Or pull the image directly:
 ```bash
 docker pull 0xe14y3/psusphere:latest
 ```
+
+**Note:** Social login buttons (Google/GitHub) are set to `#` by default. To enable them, you must configure OAuth apps in Django Admin under Social Applications.
 
 ---
 
